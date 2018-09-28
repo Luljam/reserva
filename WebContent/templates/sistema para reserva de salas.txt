@@ -1,0 +1,112 @@
+MODELAGEM
+
+TIPO DE AMBIENTE
+
+EXEMPLO 1
+
+Sala 124 (IM 14)
+Descrição (Nenhuma descrição) 
+Notas (Nenhuma nota) 
+Contato (Nenhuma informação do contato) 
+Local (Nenhum local definido) 
+
+Tipo de recurso Sala de Aula
+Não há uma duração mínima de reserva
+Não há uma duração máxima de reserva
+As reservas devem ser aprovadas
+As reservas podem ser feitas até o tempo atual
+As reservas não deve terminar mais de 23 days a partir do tempo atual
+As reservas não podem ser feitas através de dias
+Este recurso tem uma capacidade de 31 pessoas
+Ar Condicionado: Sim
+Projetor e Tela: Sim
+Lousa: Quadro de giz
+
+######################################################
+EXEMPLO 2
+
+Auditório
+Descrição (Nenhuma descrição) 
+Notas (Nenhuma nota) 
+Contato extensao@ime.unicamp.br 
+Local Secretaria de Extensão 
+Tipo de recurso (Nenhum tipo de recurso selecionado)
+
+Não há uma duração mínima de reserva
+Não há uma duração máxima de reserva
+As reservas devem ser aprovadas
+As reservas podem ser feitas até o tempo atual
+As reservas não deve terminar mais de 9 days a partir do tempo atual
+As reservas podem ser feitas através de dias
+Este recurso tem uma capacidade de 106 pessoas
+Ar Condicionado: Sim
+Projetor e Tela: Sim
+Lousa: Quadro de giz
+
+######################################################
+
+EXEMPLO 3
+
+Sala 325
+Descrição (Nenhuma descrição) 
+Notas (Nenhuma nota) 
+Contato (Nenhuma informação do contato) 
+Local (Nenhum local definido) 
+Tipo de recurso Sala de Aula
+
+Não há uma duração mínima de reserva
+Não há uma duração máxima de reserva
+As reservas devem ser aprovadas
+As reservas podem ser feitas até o tempo atual
+As reservas não deve terminar mais de 23 days a partir do tempo atual
+As reservas não podem ser feitas através de dias
+Este recurso tem uma capacidade de 28 pessoas
+Ar Condicionado:
+Projetor e Tela:
+Lousa:
+
+######################################################
+
+TIPO DE STATUS DE SALAS
+
+Livre
+Não Reservável
+Reservados
+Pendente
+Passado
+Restrito
+
+######################################################
+
+CAMPOS DA SOLICITAÇÃO
+
+Descrição:	Cursos de Extensão
+Sala:	Auditório - Auditório Mauro Biajiz
+Início:	07:00:00 - sábado 29 setembro 2018
+Duração:	10 horas
+Fim:	17:00:00 - sábado 29 setembro 2018
+Tipo:	Interno
+Marcado por:	darli
+Modified by:	
+Última Atualização:	10:53:29 - segunda 29 janeiro 2018
+Repetir Tipo:	Semanalmente
+Numero de semanas:	1 semana
+Repetir Dia:	sábado
+Repetir Fim:	sábado 29 dezembro 2018
+
+
+######################################################
+
+DESCRIÇÃO DO FORMULÁRIO DE RESERVA
+FORMULÁRIO DE SOLICITAÇÃO DE ACESSO
+
+Eu,_________________________________, RF________________, lotado na seção/setor _______________________________ do Hospital do Servidor Públioco Municipal de São Paulo, venho solicitar aprovação para reserva da sala ____________________ registrado no sistema na data de __/__/__.
+Desde já, comprometo-me a zelar pelos equipamentos e instalações, sempre restituindo aos demais usuários na mesma forma que recebido.
+Comprometo-me também, a fechar todas as janelas, portas e desligar todos os equipamentos e a iluminação. Ao término do uso, as chaves serão devolvidas na Assessoria de Comunicação.
+
+São Paulo, ___ de ________ de 2018.
+
+____________________________________
+        Assinatura e carimbo
+
+#######################################################
