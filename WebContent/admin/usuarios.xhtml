@@ -28,8 +28,12 @@
 						<f:facet name="caption">
 						A listagem abaixo exibe a relação de todos os usuários do sistema. Você poderá realizar ativação e desativação, edição e exclusão para os usuários.
 						</f:facet>
-						<f:facet name="header"><h:commandButton action="#{usuarioBean.novo}" value="Registre um novo Usuário" /></f:facet>
+						<f:facet name="header">
+							<h:commandButton action="#{usuarioBean.novo}"
+								value="Registre um novo Usuário" />
+						</f:facet>
 						<f:facet name="footer">Final da listagem</f:facet>
+
 						<h:column>
 							<f:facet name="header">
 								<i class="fa fa-lock"></i> Status</f:facet>
@@ -46,11 +50,13 @@
 							<h:outputText value="#{usuario.codigo}" />
 						</h:column>
 						<h:column>
-							<f:facet name="header"><i class="fa fa-user"></i> Login</f:facet>
+							<f:facet name="header">
+								<i class="fa fa-user"></i> Login</f:facet>
 							<h:outputText value="#{usuario.login}" />
 						</h:column>
 						<h:column>
-							<f:facet name="header"><i class="fa fa-edit"></i> Nome</f:facet>
+							<f:facet name="header">
+								<i class="fa fa-edit"></i> Nome</f:facet>
 							<h:outputText value="#{usuario.nome}" />
 						</h:column>
 						<h:column>
@@ -59,7 +65,8 @@
 							<a href="mailto:#{usuario.email}">#{usuario.email}</a>
 						</h:column>
 						<h:column>
-							<f:facet name="header"><i class="fa fa-unlock-alt"></i> Permissões</f:facet>
+							<f:facet name="header">
+								<i class="fa fa-unlock-alt"></i> Permissões</f:facet>
 							<h:commandLink
 								action="#{usuarioBean.atribuiPermissao(usuario, 'ROLE_ADMINISTRADOR')}"
 								title="Permissão Administrador">
@@ -76,13 +83,14 @@
 							</h:commandLink>
 						</h:column>
 						<h:column>
-							<f:facet name="header"><i class="fa fa-calendar"></i> Data de Cadastro</f:facet>
-							<h:outputText value="#{usuario.dtCadastro}" >
-								<f:convertDateTime type="both"/>
+							<f:facet name="header">
+								<i class="fa fa-calendar"></i> Data de Cadastro</f:facet>
+							<h:outputText value="#{usuario.dtCadastro}">
+								<f:convertDateTime type="both" />
 							</h:outputText>
 						</h:column>
-						
-						
+
+
 						<h:column>
 							<h:commandLink action="#{usuarioBean.editar}">
 								<button class="btn btn-primary btn-xs">

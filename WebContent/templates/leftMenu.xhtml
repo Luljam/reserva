@@ -42,66 +42,22 @@
 				class="fa fa-user-plus"></i> <span>Administração</span>
 		</a>
 			<ul class="sub">
-				<li><h:link value="CDI"></h:link>
-						<ul class="sub">
-							<li><h:link value="Grade de Consultas"
-							outcome="/administrativoCDI/cadastrogrades.xhtml"
-							class="scroll" /></li>
-						</ul>
-					</li>
-				<li><h:link value="Cadastro"></h:link>
-				
-				<ul class="sub">
-						<li><h:link value="Lista de Usuários"
+				<li><h:link value="Lista de Usuários"
 						outcome="/admin/usuarios.xhtml" 
 						class="scroll" /></li>
-					
-						<li><h:link value="Grupos"
-						outcome="/administrativoCDI/grupoexames.xhtml"
-						 class="scroll" /></li>
-						
-						<li><h:link value="Exames"
-						outcome="/administrativoCDI/cadastroexames.xhtml"
-						class="scroll" /></li>
-						
-						<li><h:link value="Grade de Consultas"
-						outcome="/administrativoCDI/cadastrogrades.xhtml"
-						class="scroll" /></li>
-						
-												
-						<li><h:link value="Conselhos"
-						outcome="/administrativoCDI/cadconselhoclasse.xhtml"
-						class="scroll" /></li>
-						
-						<li><h:link value="Profissionais"
-						outcome="/administrativoCDI/cadprofissional.xhtml"
-						class="scroll" /></li>
-						
-						<li><h:link value="Clínicas"
-						outcome="/administrativoCDI/cadastroclinica.xhtml"
-						class="scroll" /></li>
-						
-						<li><h:link value="Especialidades"
-						outcome="/administrativoCDI/cadespecialidade.xhtml"
-						class="scroll" /></li>
-				</ul></li>
-				
+								
 			</ul>
 		</li>
 
 			<sec:ifAnyGranted roles="ROLE_ADMINISTRADOR">
 			<li class="sub-menu"><a href="javascript:;"> <i
-					class="fa fa-users"></i> <span>Administrativo CDI</span>
+					class="fa fa-users"></i> <span>Administrativo</span>
 			</a>
 				<ul class="sub">
-						<li><h:link value="Marcação"
-						outcome="/publico/agendamento.xhtml"
-						class="scroll" /></li>
-												
-						<li><h:link value="Confirmação"
-						outcome="/administrativoCDI/confimaconsulta.xhtml"
-						class="scroll" /></li>
-						
+						<li><h:link value="Cadastro de Salas"
+						outcome="/administrativo/cadastrosalas.xhtml"
+						 class="scroll" /></li>
+						 
 				</ul></li>
 				
 		</sec:ifAnyGranted>

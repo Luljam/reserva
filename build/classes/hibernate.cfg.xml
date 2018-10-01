@@ -15,5 +15,6 @@
   <property name="use_sql_comments">true</property>
   <!-- Mapeamento de classes -->
   <mapping class="hspm.usuario.Usuario"/>
+  <mapping class="hspm.sala.Sala"/>
  </session-factory>
 </hibernate-configuration>
